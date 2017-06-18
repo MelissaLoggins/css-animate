@@ -1,0 +1,68 @@
+#mspacman {
+	width: 0px;
+	height: 0px;
+	border-right: 60px solid transparent;
+	border-top: 60px solid yellow;
+	border-left: 60px solid yellow;
+	border-bottom: 60px solid yellow;
+	border-top-left-radius: 60px;
+	border-top-right-radius: 60px;
+	border-bottom-left-radius: 60px;
+	border-bottom-right-radius: 60px;
+	position: absolute;
+	margin: 300px 800px;
+	animation: moveRight 10s;
+}
+
+.triangle {
+	height: 0;
+	width: 0;
+	border-top: transparent solid 20px;
+	border-left: red solid 29px;
+	border-right: red solid 29px;
+	border-top-right-radius: 20%; 
+	border-top-left-radius: 20%;
+	position: absolute;
+	bottom: 52px;
+	left: -30px;
+}
+
+#eye {
+	width: 0px;
+	height: 0px;
+	border-right: 6px solid transparent;
+	border-top: 6px solid black;
+	border-left: 6px solid black;
+	border-bottom: 9px solid black;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 9px;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 9px;
+	position: absolute;
+	bottom: 20px;
+	left: -10px;
+}
+
+@keyframes moveRight {
+	from {
+		margin-left: 500px;
+	}
+
+	to {
+		margin-top: 500px;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

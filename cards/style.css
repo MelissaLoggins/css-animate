@@ -1,0 +1,77 @@
+h1 {
+	margin: 150px 500px;
+
+}
+
+#greeting:hover {
+  position: absolute;
+  transform: rotate(760deg);
+  color: red;
+  font-size: 2em;
+  transition: all 1s;
+}
+
+/*#greeting:hover {
+  position: absolute;
+  -webkit-transform: rotate(760deg);
+          transform: rotate(760deg);
+  color: red;
+  font-size: 2em;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}*/
+
+#heart-container {
+	height: 300px;
+	width: 300px;
+	border: 2px solid black;
+	position: relative;
+	margin: 150px 800px;
+}
+
+#triangle {
+	height: 0;
+	width: 0;
+	border-top: red solid 69px;
+	border-left: transparent solid 100px;
+	border-right: transparent solid 100px; 
+	position: absolute;
+	bottom: 20px;
+	left: 50px;
+}
+
+.circle {
+	background: red;
+	border-radius: 50%;
+	height: 105px;
+	width: 105px;
+	position: absolute;
+	bottom: 40px;
+}
+
+.c1 {
+	left: 0px;
+}
+
+.c2 {
+	right: 0px;
+}
+
+#fill {
+	position: absolute;
+	background: red;
+	width: 50px;
+	height: 30px;
+	bottom: 60px;
+	left: -10px;
+}
+
+
+
+
+
+
+
+
+
+
